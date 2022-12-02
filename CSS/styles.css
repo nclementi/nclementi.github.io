@@ -1,0 +1,14 @@
+body {
+    background-color: #fefefe;
+    color: #2e2e2e;
+    font: 1.2em Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+  }
+  header {
+    background: #8693ab;
+      padding: 0.5em;
+  }
+  img {
+    width: 50vw;
+    padding-left: 25%;
+  }
