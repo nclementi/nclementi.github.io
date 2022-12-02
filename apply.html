@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, 
+        initial-scale=1.0">
+       <link rel="stylesheet" href="CSS/apply.css">
+  <title>Carolina Coffee Shop</title>
+</head>
+
+<body>
+  <div class="flex-container">
+    <p>
+     <!--copy and paste nav bar from home page here-->
+    </p>
+   <div class="flex-container">
+    <form class="signin">
+    <h1>We're Hiring!</h1><br>
+    <p>Your name</p>
+        <input type="text" class="login"><br>
+        <p>Email Address</p>
+        <div class="form-group">
+          <input type="email" name="email" required="" class="login" oninvalid="this.setCustomValidity('Please Enter valid email')" oninput="setCustomValidity('')">
+      </div><br>
+      <p>Resume Link (PDF only please)</p>
+      <input type="text" class="login"><br>
+
+<p>How did you hear about us?</p>
+      <div class="select-box">
+        <div class="options-container">
+            <div class="option">
+                <input type="radio" class="radio" id="option" name="category"/>
+                <label for="option">Newsletter</label>
+            </div>
+            <div class="option">
+                <input type="radio" class="radio" id="option" name="category"/>
+                <label for="option">Employee Referral</label>
+                </div>
+             <div class="option">
+                 <input type="radio" class="radio" id="option" name="category"/>
+                <label for="option">Social Media</label>
+                </div>
+            <div class="option">
+              <input type="radio" class="radio" id="option" name="category"/>
+               <label for="option">Other</label>
+               <div class="form-group">
+                <input type="text" class="other">
+            </div><br>
+      </div>
+
+
+        <input type="submit" class="button" value="Apply" /><br><br>
+   </form>
+  </div>
+    <footer>my footer</footer>
+   </div>
+      </body>  
+
+</html>

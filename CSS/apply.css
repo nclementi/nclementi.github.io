@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    height: 70vh;
+    background: color #bdd4e7;;
+    width: 100vw;
+}
+
+h1 {
+    background-color: #8693ab;
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #001b2e;
+}
+
+footer {
+    background-color: #8693ab;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:xx-large;
+}
+
+.nav {
+    list-style: none;
+    text-align: center;
+}
+
+li, li a {
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: pink;
+    display: inline-flex;
+    font-size: 1.5em;
+    color: #001b2e;
+}
+
+.button {
+    font-size: 24px;
+    padding: 10px 50px;
+    width: 75vw;
+    background-image: linear-gradient(
+        35deg,
+        #8693ab 15% 25%,
+        #bdd4e7 85% 100%
+    );
+    background-size: 200%;
+    border-radius: 1rem;
+    transition: background-position 3s ease;
+}
+
+.button:hover{
+    background-position: 100%;
+}
+
+.login{
+    background-color: #bdd4e7;
+    align-self: center;
+    padding: 10px 50px;
+    width: 50vw;
+    margin: 1%;
+    text-align: center;
+}
+
+.login:hover{
+    background-image: linear-gradient(
+        35deg,
+        #8693ab 15% 25%,
+        #bdd4e7 85% 100%
+    );
+}
+
+.other:hover{
+    border-color: palegoldenrod;
+}
+
+.signin{
+    text-align: center;
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    margin: 2%;
+}
