@@ -5,6 +5,10 @@ body {
     width: 100vw;
 }
 
+*{
+    font-family: 'Dosis'
+}
+
 h1 {
     background-color: #8693ab;
     height: 20vh;

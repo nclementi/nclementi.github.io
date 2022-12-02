@@ -4,11 +4,31 @@ body {
     font: 1.2em Helvetica Neue, Helvetica, Arial, sans-serif;
     margin: 0;
   }
+
   header {
-    background: #8693ab;
-      padding: 0.5em;
+    background: #001b2e;
+    padding: 0.5em;
   }
+
   img {
     width: 50vw;
     padding-left: 25%;
+  }
+
+  .nav{
+    list-style: none;
+    text-align: center;
+    width: 100vw;
+  }
+
+  li, li a{
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 1.15em;
+    color: #bdd4e7;
+  }
+
+  *{
+    font-family: 'Dosis'
   }
