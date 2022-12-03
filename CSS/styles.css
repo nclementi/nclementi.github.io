@@ -30,17 +30,8 @@ li, li a{
   font-family: 'Dosis'
 }
 
-li:hover{
-  color: #8693ab
-}
-  
-li a:hover{
-  text-decoration-color: #8693ab;
-}
-
-nav ul{
-  margin-left: auto;
-  margin-right: auto;
+a:hover{
+  color: #8693ab;
 }
 
 nav li{

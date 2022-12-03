@@ -5,13 +5,6 @@ body{
     width: 98vw;
 }
 
-.box{
-    width: 400px;
-    height: 380px;
-    background-color: #fefefe;
-    margin: 200px;
-}
-
 .nav{
     text-align: center;
     width: 100vw;
@@ -26,24 +19,72 @@ li, li a{
 }
   
 *{
-    font-family: 'Dosis'
+    font-family: 'Dosis';
 }
   
-li:hover{
-    color: #8693ab
-}
-    
-li a:hover{
-    text-decoration-color: #8693ab;
-}
-  
-nav ul{
-    margin-left: auto;
-    margin-right: auto;
+a:hover{
+    text-decoration:underline;
 }
   
 nav li{
-    display: inline-block;
     height: 100%;
     width: 10%;
 }
+
+.box{
+    width: 320px;
+    height: 320px;
+    font-size: 280%;
+    text-align: center;
+    text-decoration-color: #001b2e;
+    background-color: white;
+    margin-left: 0%;
+    margin-top: 38%;
+}
+
+.box:hover{
+    font-size: 280%;
+    transform: scale(1.3);
+    box-shadow: 10px 10px #8693ab;
+}
+
+@media screen and (min-width: 600px) {
+    .box{
+        margin-left: 0%;
+        margin-top: 28%;
+        height: 380px;
+        width:380px;
+        font-size: 300%;
+    }
+    .box:hover{
+        font-size: 320%;
+        box-shadow: 10px 10px #8693ab;
+    }
+} /*medium*/
+
+@media screen and (min-width: 750px) {
+    .box{
+        margin-left: 12%;
+        margin-top: 26%;
+        height: 410px;
+        width: 410px;
+        font-size: 360%;
+    }
+    .box:hover{
+        font-size: 340%;
+        box-shadow: 12px 12px #8693ab;
+    }
+} /*large*/
+
+@media screen and (min-width: 950px) {
+    .box{
+        margin: 14%;
+        height: 440px;
+        width: 440px;
+        font-size: 380%;
+    }
+    .box:hover{
+        font-size: 390%;
+        box-shadow: 15px 15px #8693ab;
+    }
+} /*x-large*/
