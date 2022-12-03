@@ -1,6 +1,6 @@
-body{
+.flex-container{
     display: flex;
-    height: 100vh;
+    height: 99vh;
     background: linear-gradient(to bottom left, #bdd4e7 50%, #001b2e 50%);
     width: 98vw;
 }
@@ -8,6 +8,7 @@ body{
 .nav{
     text-align: center;
     width: 100vw;
+    padding-left: 35px;
     list-style-type: none;
     text-decoration: none;
 }
@@ -16,6 +17,7 @@ li, li a{
     color: #001b2e;
     text-decoration: none;
     list-style-type:none;
+    display: inline;
 }
   
 *{
@@ -38,8 +40,8 @@ nav li{
     text-align: center;
     text-decoration-color: #001b2e;
     background-color: white;
-    margin-left: 0%;
-    margin-top: 38%;
+    margin-left: 15%;
+    margin-top: 35%;
 }
 
 .box:hover{
@@ -50,8 +52,8 @@ nav li{
 
 @media screen and (min-width: 600px) {
     .box{
-        margin-left: 0%;
-        margin-top: 28%;
+        margin-left: 15%;
+        margin-top: 22%;
         height: 380px;
         width:380px;
         font-size: 300%;
@@ -64,8 +66,8 @@ nav li{
 
 @media screen and (min-width: 750px) {
     .box{
-        margin-left: 12%;
-        margin-top: 26%;
+        margin-left: 18%;
+        margin-top: 16%;
         height: 410px;
         width: 410px;
         font-size: 360%;
@@ -78,7 +80,8 @@ nav li{
 
 @media screen and (min-width: 950px) {
     .box{
-        margin: 14%;
+        margin-left: 30%;
+        margin-top: 10%;
         height: 440px;
         width: 440px;
         font-size: 380%;
