@@ -73,6 +73,7 @@ footer {
 .nav{
     text-align: center;
     width: 100vw;
+    padding-left: 35px;
 }
   
 li, li a{
