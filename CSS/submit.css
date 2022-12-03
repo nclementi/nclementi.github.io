@@ -11,3 +11,39 @@ body{
     background-color: #fefefe;
     margin: 200px;
 }
+
+.nav{
+    text-align: center;
+    width: 100vw;
+    list-style-type: none;
+    text-decoration: none;
+}
+  
+li, li a{
+    color: #001b2e;
+    text-decoration: none;
+    list-style-type:none;
+}
+  
+*{
+    font-family: 'Dosis'
+}
+  
+li:hover{
+    color: #8693ab
+}
+    
+li a:hover{
+    text-decoration-color: #8693ab;
+}
+  
+nav ul{
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+nav li{
+    display: inline-block;
+    height: 100%;
+    width: 10%;
+}
