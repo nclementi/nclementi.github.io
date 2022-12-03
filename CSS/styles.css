@@ -27,11 +27,12 @@ li, li a{
 }
 
 *{
-  font-family: 'Dosis'
+  font-family: 'Dosis';
 }
 
 a:hover{
   color: #8693ab;
+  text-decoration:underline;
 }
 
 nav li{

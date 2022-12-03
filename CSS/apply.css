@@ -4,7 +4,7 @@ body {
 }
 
 *{
-    font-family: 'Dosis'
+    font-family: 'Dosis';
 }
 
 h1 {
@@ -80,13 +80,10 @@ li, li a{
     text-decoration: none;
     list-style-type:none;
 }
-  
-*{
-    font-family: 'Dosis'
-}
 
 a:hover{
     color: #8693ab;
+    text-decoration:underline;
 }
   
 nav li{
