@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to bottom left, #bdd4e7 50%, #001b2e 50%);
+    width: 98vw;
+}
+
+.box{
+    width: 400px;
+    height: 380px;
+    background-color: #fefefe;
+    margin: 200px;
+}
