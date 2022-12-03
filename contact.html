@@ -1,39 +1,71 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, 
-       initial-scale-1, shrink-to-fit=no">
-  <title>Final project</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+       <link rel="stylesheet" href="CSS/apply.css">
+  <title>Carolina Coffee Shop</title>
 </head>
 
 <body>
-    <header>
-    <h1>Contact Us</h1>
-      <div class="logo">
-        <img src="./images/logo.png" alt="Logo" width="150p">
-      </div>
-        <nav class="main-nav">
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="menu.html">Menu</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="apply.html">Apply</a></li>
-            </ul>
-          </nav>
-    </header>
+  <div class="flex-container">
+    <p>
+      <!--navigation-->
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="apply.html">Apply</a></li>
+        </ul>
+      </nav>
+    </p>
+   <div class="flex-container">
+    <!--contact form-->
+    <form class="signin">
+    <h1>Contact Us!</h1><br>
+    <p>First Name</p>
+        <input type="text" class="login" placeholder="ex: 'Jane'"><br>
+     
+        <p>Last Name</p>
+        <input type="text" class="login" placeholder="ex: 'Doe'"><br>
 
-<a href="index.html"></a>
-<a href="about.html"></a>
-<a href="menu.html"></a>
- <a href="contact.html"></a>
+        <p>Phone Number</p>
+        <input type="text" class="login" placeholder="ex: 123-456-7890"><br>
+
        
-</body>  
+        <p>Email Address</p>
+        <div class="form-group">
+          <input type="email" placeholder="ex: name@example.com" name="email" required="" class="login" oninvalid="this.setCustomValidity('Please Enter valid email')" oninput="setCustomValidity('')">
+      </div><br>
+      <p>Your Message To Us!</p>
+      <input type="text" class="login" placeholder="ex: 'hi there...'"><br>
+
+      <p>Prefered Method Of Contact</p>
+      <label for="phone">Phone</label>
+<input type="radio" name="Phone" value="phone"> 
+<label for="email">Email</label>
+<input type="radio" name="Email" value="email"> 
+
+<br>
+
+
+<br> <br>
+<!--submit button-->
+<!--other content area is shown when button is clicked-->
+      <button onclick="location.href='received.html';"> <input type="submit" class="button" value="Submit"/></button><br><br>
+   </form>
+
+<!--footer-->
+  </div>
+    <footer>Carolina Coffee Shop ®</footer>
+   </div>
+      </body> 
 
 </html>

@@ -46,6 +46,11 @@ a:hover{
   text-decoration:underline;
 }
 
+a:focus{
+  color: #8693ab;
+  text-decoration:underline;
+}
+
 nav li{
   display: inline-block;
   height: 100%;

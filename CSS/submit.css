@@ -27,6 +27,10 @@ li, li a{
 a:hover{
     text-decoration:underline;
 }
+
+a:focus{
+    text-decoration: underline;
+}
   
 nav li{
     height: 100%;
